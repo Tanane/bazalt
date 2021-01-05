@@ -9,7 +9,7 @@ const styles = {
     },
 };
 
-function T({text}) {
+function Triangle({text}) {
     return (
         <h4 style={styles.container}>
              {text}
@@ -17,4 +17,4 @@ function T({text}) {
       );
 }
 
-export default T;
+export default Triangle;

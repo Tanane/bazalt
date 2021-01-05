@@ -43,7 +43,8 @@ const getLayoutedElements = (elements, direction = 'TB') => {
     }
 
     if (el.direction === 'left'){
-        // x = window.innerWidth / 4
+      y -= 0
+      x -= 300
     }
 
       el.position = {
